@@ -14,6 +14,10 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
+img {
+  height: 60px;
+}
+
 .container {
   background-color: #fff;
   display: flex;
@@ -30,7 +34,6 @@ h1 {
   position: relative;
   margin-right: 80px;
   max-width: 500px;
-  border: 1px solid red;
   right: 50px;
 }
 
@@ -38,12 +41,28 @@ h1 {
   display: flex;
   align-items: center;
   position: absolute;
-  bottom: 200px;
+  bottom: 210px;
+}
+
+.left img {
+  margin-right: 15px;
+}
+
+.left img:first-child {
+  height: 50px;
+}
+
+.left img:nth-child(3) {
+  border-radius: 50px;
+  border: 3px solid rgb(231, 47, 255);
 }
 
 .left p {
   position: relative;
-  bottom: 125px;
+  bottom: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgb(103, 103, 103);
 }
 
 .right {
