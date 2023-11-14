@@ -10,6 +10,10 @@ body {
   background-color: rgba(250, 206, 213, 0.689);
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
 .container {
   background-color: #fff;
   display: flex;
@@ -24,12 +28,29 @@ body {
 
 .left {
   position: relative;
-  border: 1px solid blue;
+  margin-right: 80px;
+  max-width: 500px;
+  border: 1px solid red;
+  right: 50px;
 }
 
 .left header {
-  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 200px;
+}
+
+.left p {
+  position: relative;
+  bottom: 125px;
 }
 
 .right {
+  max-width: 350px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
