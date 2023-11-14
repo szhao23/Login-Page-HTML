@@ -24,7 +24,11 @@ body {
 
 .left {
   position: relative;
-  left: -50px;
+  border: 1px solid blue;
+}
+
+.left header {
+  border: 1px solid red;
 }
 
 .right {
