@@ -98,8 +98,35 @@ img {
   align-items: center;
   max-width: 300px;
   position: absolute;
-  bottom: 200px;
+  bottom: 225px;
   font-family: "Poppins", sans-serif;
   color: pink;
   font-weight: bold;
+}
+
+form.form-example {
+  display: table;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+button {
+  color: #fff;
+  background-color: pink;
+  height: 40px;
+  width: 60px;
+  border-radius: 10px;
+  border: none;
 }
