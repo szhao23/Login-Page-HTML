@@ -49,11 +49,7 @@ img {
   margin-right: 15px;
 }
 
-.left img:first-child {
-  /* height: 50px; */
-}
-
-.left carousel img:nth-child(3) {
+.carousel img:first-child {
   border-radius: 50px;
   border: 3px solid rgb(231, 47, 255);
 }
