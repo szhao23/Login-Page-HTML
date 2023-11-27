@@ -33,7 +33,8 @@ img {
 
 .left {
   position: relative;
-  margin-right: 80px;
+  /* margin-right: 20px; */
+  padding-left: 50px;
   max-width: 500px;
   right: 50px;
 }
@@ -90,22 +91,43 @@ img {
 .right .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  max-width: 300px;
-  position: absolute;
-  bottom: 225px;
+  max-width: 500px;
+  position: relative;
+  bottom: 75px;
   font-family: "Poppins", sans-serif;
   color: pink;
   font-weight: bold;
+  padding-top: 35px;
+  padding-right: 35px;
 }
 
-form.form-example {
+.right .left-side {
+  position: relative;
+  padding-right: 75px;
+  color: black;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.right .right-side {
+  position: relative;
+  color: rgb(234, 143, 159);
+}
+
+form.login-form {
   display: table;
 }
 
-div.form-example {
+div.login-form {
   display: table-row;
+}
+
+.login-name,
+.login-password label {
+  font-weight: 550;
+  font-family: "Poppins", sans-serif;
 }
 
 label,
@@ -114,15 +136,32 @@ input {
   margin-bottom: 10px;
 }
 
+form h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  color: rgb(226, 116, 135);
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
 label {
   padding-right: 10px;
 }
 
 button {
   color: #fff;
-  background-color: pink;
+  background-color: rgb(245, 124, 144);
   height: 40px;
-  width: 60px;
-  border-radius: 10px;
+  width: 350px;
+  border-radius: 20px;
   border: none;
+}
+
+form p {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0px;
 }
