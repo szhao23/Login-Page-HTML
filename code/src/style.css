@@ -119,6 +119,10 @@ img {
   left: 35px;
 }
 
+.right-side:hover {
+  color: rgb(255, 69, 100);
+}
+
 form.login-form {
   display: table;
 }
@@ -163,6 +167,11 @@ button {
   border-radius: 20px;
   border: none;
   cursor: pointer;
+}
+
+button:hover {
+  color: #fff;
+  background-color: rgb(255, 69, 100);
 }
 
 form p {
