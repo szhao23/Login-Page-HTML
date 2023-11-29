@@ -48,6 +48,7 @@ img {
 
 .left img {
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .carousel img:first-child {
@@ -73,6 +74,7 @@ img {
   border-radius: 50%;
   display: inline-block;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .dot:first-child {
@@ -80,7 +82,7 @@ img {
 }
 
 .right {
-  max-width: 350px;
+  max-width: 500px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -95,11 +97,11 @@ img {
   align-items: center;
   max-width: 500px;
   position: relative;
-  bottom: 75px;
+  bottom: 40px;
   font-family: "Poppins", sans-serif;
   color: pink;
   font-weight: bold;
-  padding-top: 35px;
+  padding-top: 75px;
   padding-right: 35px;
 }
 
@@ -114,6 +116,7 @@ img {
 .right .right-side {
   position: relative;
   color: rgb(234, 143, 159);
+  left: 35px;
 }
 
 form.login-form {
@@ -134,6 +137,13 @@ label,
 input {
   display: table-cell;
   margin-bottom: 10px;
+  width: 350px;
+  height: 35px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #909090;
 }
 
 form h3 {
@@ -145,10 +155,6 @@ form h3 {
   padding-top: 10px;
 }
 
-label {
-  padding-right: 10px;
-}
-
 button {
   color: #fff;
   background-color: rgb(245, 124, 144);
@@ -156,6 +162,7 @@ button {
   width: 350px;
   border-radius: 20px;
   border: none;
+  cursor: pointer;
 }
 
 form p {
@@ -163,5 +170,31 @@ form p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 0px;
+  padding-top: 20px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.google {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.apple {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.facebook {
+  cursor: pointer;
+}
+
+.socials img {
+  height: 30px;
 }
